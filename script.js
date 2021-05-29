@@ -37,7 +37,7 @@ checkBtn.addEventListener('click', () => {
       scoreEl.textContent = score;
     } else {
       message.textContent = '😢 You lost... !';
-      score.textContent = 0;
+      scoreEl.textContent = 0;
     }
   }
 });
